@@ -1,18 +1,40 @@
 ul {
-    color: goldenrod;
+    color: rgb(219, 166, 19);
 }
 
 html {
     font-family: 'Source Code Pro', monospace;
+    background-color: #00539F;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
 }
 
-h1 {
-    font-size: 60px;
+h2, h3, h4, h5 {
     text-align: center;
 }
+
 p, li {
-    width: 400px;
+    /* width: 400px; */
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+}
+
+/*Styling the body*/
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #5e7752;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
